@@ -1,3 +1,4 @@
+# for unit testing pass -DCMAKE_UNITTEST="UTEST" with cmake ..
 cmake_minimum_required(VERSION 2.6)
 
 if ( "${CMAKE_UNITTEST}" STREQUAL "UTEST" )
